@@ -1,0 +1,5 @@
+/* style for iBizz button */
+.iBizz-button{
+    background: rgb(241,137,1);
+    background: linear-gradient(200deg, rgba(241,137,1,1) 0%, rgba(226,6,18,1) 100%) !important;
+}

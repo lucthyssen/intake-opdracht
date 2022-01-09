@@ -1,0 +1,76 @@
+.reset-button{
+    padding: 6px 20px;
+    background-color: crimson !important;
+    border-radius: 7px;
+    color: white;
+    border: 3px solid crimson;
+    transition: 0.3s;
+}
+
+.reset-button:hover{
+    background-color: white !important;
+    border-color: crimson;
+    color: crimson;
+}
+
+.container{
+    margin-top: 5vh;
+    padding-bottom: 10vh;
+}
+
+.reset, .new-player, .flights{
+    background-color: white;
+    -webkit-box-shadow: -1px 3px 15px 1px rgba(0,0,0,0.65); 
+    box-shadow: -1px 3px 15px 1px rgba(0,0,0,0.65);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.table{
+    margin-top: 50px;
+    margin-bottom: 50px !important;
+    background-color: white;
+    -webkit-box-shadow: -1px 3px 15px 1px rgba(0,0,0,0.65) !important; 
+    box-shadow: -1px 3px 15px 1px rgba(0,0,0,0.65) !important;
+    border-radius: 15px;
+} 
+
+form{
+    margin-bottom: 0px;
+}
+
+.toevoegen-button{
+    background-color: darkgreen !important;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 7px;
+    border: 3px solid darkgreen;
+    transition: 0.3s;
+}
+
+.toevoegen-button:hover{
+    background-color: white !important;
+    border-color: darkgreen;
+    color: darkgreen;
+}
+
+.new-player form input, select{
+    border-radius: 7px !important;
+}
+
+.reset, .flights{
+    vertical-align: middle;
+    display: grid;
+    grid-template-columns: 1fr 11fr;
+}
+.text{
+    margin-left: 10px;
+    line-height: 5vh;
+}
+
+.flights{
+    margin-top: 50px;
+}
+header{
+    display: none;
+}

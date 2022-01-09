@@ -1,0 +1,45 @@
+.grid{
+    margin-top: 3vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+}
+
+.block{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+    -webkit-box-shadow: -1px 2px 15px -2px #000000; 
+    box-shadow: -1px 2px 15px -2px #000000;
+}
+
+.subtitle{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.container{
+    margin-top: 5vh;
+    max-width: 100vw !important;
+}
+
+.code{
+    display: grid;
+    grid-template-columns: 1fr;
+    
+}
+
+.toevoegen-button{
+    background-color: darkgreen !important;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 7px;
+    border: 3px solid darkgreen;
+    transition: 0.3s;
+}
+
+.ibizz-button{
+    background: rgb(241,137,1);
+    background: linear-gradient(200deg, rgba(241,137,1,1) 0%, rgba(226,6,18,1) 100%);
+}

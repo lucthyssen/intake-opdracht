@@ -1,0 +1,43 @@
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+}
+
+/* make grid for home page */
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+/* style blocks */
+.block{
+    margin: 0 auto;
+    height: 25vh;
+    width: 300px;
+    background: rgb(241,137,1);
+    background: linear-gradient(200deg, rgba(241,137,1,1) 0%, rgba(226,6,18,1) 100%);
+    border-radius: 15px;
+    -webkit-box-shadow: -1px 3px 15px 0px #000000; 
+    box-shadow: -1px 3px 15px 0px #000000;
+    transition: 0.3s;
+}
+
+.block:hover{
+    transform: scale(1.1);
+}
+
+/* align block title in center */
+.block-title{
+    text-align: center;
+    line-height: 25vh;
+    
+}
+
+a{
+    /* !important om bootstrap te over-rulen */
+    text-decoration: none !important;
+    color: #f4f4f4 !important;
+}
